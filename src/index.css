@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Akaya Telivigala', cursive;
+   
+}
+body{
+    padding: 10px;
+    background-image: url(./image//bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: gray;
+    width: 100vw;
+    height: 100vh;
+}
+/* App.js style */
+.main-container{
+    max-width: 400px;
+    margin:20px auto;
+    border-radius: 10px;
+    min-height: 400px;  
+    backdrop-filter: blur( 20.0px );
+    -webkit-backdrop-filter: blur( 20.0px );
+    
+}
+/*style for todoHeader.js */
+.todo-header{
+    width: 100%;
+    background-image: url(./image/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:10px 10px 0 0;
+    padding: 10px;
+    height: 100px;
+    background-blend-mode: multiply;
+    text-align: end;
+    color: rgb(255, 255, 255);
+box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0);
+backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 20.0px );
+    
+}
+.time,.month{
+    padding: 10px;
+    text-shadow: 0px 0px 10px black;
+
+}
+/* Todofrom.js style */
+.todo-form form{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    margin:10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.todo-form input{
+    height: 100%;
+    width: 80%;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 16px;
+    box-shadow: 0 1px 4px 0 rgba(160, 160, 163, 0.144);
+}
+.todo-form button{
+    height: 100%;
+    width: 16%;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background-color: transparent;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 1px 4px 0 rgba(160, 160, 163, 0.562);
+    border: none;
+    outline: none;
+    transition: 1s;
+}
+.todo-form button:hover{
+    color: black;
+    transition: 1s;
+    background-color:rgba(107, 105, 105, 0.527);
+}
+
+.todo-list{
+    border-radius: 10px;
+    padding: 10px;
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.todo-list ul li{
+    border-radius: 10px;
+    margin: 10px auto;
+   color: white;
+    list-style: none;
+    padding: 10px;
+    min-height: 40px;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0px 4px 0 rgba(224, 224, 233, 0.459);
+backdrop-filter: blur( 20.0px );
+-webkit-backdrop-filter: blur( 20.0px );
+transition: 1s;
+    
+}
+.todo-list ul .completed{
+    color: gray;
+    transition: 1s;
+    text-decoration: line-through;
+}
+.icons{
+    display: flex;
+}
+
+.icons button{
+    margin-left:6px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    height: 100%;
+    color: white;
+    background-color: transparent;
+
+}
+.icons button:nth-child(1):hover{
+    color: greenyellow;
+}
+
+.icons button:nth-child(2):hover{
+    color: red;
+}
+
+.no-todo{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+}
