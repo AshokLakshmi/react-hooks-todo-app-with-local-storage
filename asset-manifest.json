@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-hooks-todo-app-with-local-storage/static/css/main.41168d8b.chunk.css",
+    "main.js": "/react-hooks-todo-app-with-local-storage/static/js/main.2e0d9721.chunk.js",
+    "main.js.map": "/react-hooks-todo-app-with-local-storage/static/js/main.2e0d9721.chunk.js.map",
+    "runtime-main.js": "/react-hooks-todo-app-with-local-storage/static/js/runtime-main.f4c408a1.js",
+    "runtime-main.js.map": "/react-hooks-todo-app-with-local-storage/static/js/runtime-main.f4c408a1.js.map",
+    "static/js/2.56d31f15.chunk.js": "/react-hooks-todo-app-with-local-storage/static/js/2.56d31f15.chunk.js",
+    "static/js/2.56d31f15.chunk.js.map": "/react-hooks-todo-app-with-local-storage/static/js/2.56d31f15.chunk.js.map",
+    "index.html": "/react-hooks-todo-app-with-local-storage/index.html",
+    "static/css/main.41168d8b.chunk.css.map": "/react-hooks-todo-app-with-local-storage/static/css/main.41168d8b.chunk.css.map",
+    "static/js/2.56d31f15.chunk.js.LICENSE.txt": "/react-hooks-todo-app-with-local-storage/static/js/2.56d31f15.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/react-hooks-todo-app-with-local-storage/static/media/header-bg.bab0ef6b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4c408a1.js",
+    "static/js/2.56d31f15.chunk.js",
+    "static/css/main.41168d8b.chunk.css",
+    "static/js/main.2e0d9721.chunk.js"
+  ]
+}
