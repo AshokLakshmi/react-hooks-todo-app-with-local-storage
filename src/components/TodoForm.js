@@ -6,7 +6,7 @@ export default function TodoForm({inputText,setInputText,todoList,setTodoList}) 
     }
     const OnSubmitForm=(e)=>{
          e.preventDefault();
-         if(inputText===0){
+         if(inputText==0){
              return;
         }
         setTodoList([...todoList,{text:inputText,id:Date.now(),isCompleted:false}])
